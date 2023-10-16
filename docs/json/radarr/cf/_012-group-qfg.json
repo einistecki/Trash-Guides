@@ -1,0 +1,20 @@
+{
+  "trash_id": "0000000000000000000000000000a012",
+  "trash_score": 2,
+  "trash_scores": {
+    "default": 2
+  },
+  "name": "[QfG]",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "QfG",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": true,
+      "fields": {
+        "value": "\\bQfG\\b"
+      }
+    }
+  ]
+}
