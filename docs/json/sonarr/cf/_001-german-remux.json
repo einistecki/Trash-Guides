@@ -1,0 +1,20 @@
+{
+  "trash_id": "0000000000000000000000000000b001",
+  "trash_score": -10000,
+  "trash_scores": {
+    "default": -10000
+  },
+  "name": "[GermanRemux]",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "German Remux",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(?=.*\\b(German)\\b)(?=.*\\b(BluRay[ .-]AVC)\\b)"
+      }
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "trash_id": "0000000000000000000000000000a004",
+  "trash_score": -10000,
+  "trash_scores": {
+    "default": -10000
+  },
+  "name": "[Upscaled]",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "UPSCALEREGRADED",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "\\b(UPSCALEREGRADED)\\b"
+      }
+    }
+  ]
+}

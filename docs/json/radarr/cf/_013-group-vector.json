@@ -1,0 +1,20 @@
+{
+  "trash_id": "0000000000000000000000000000a013",
+  "trash_score": 1,
+  "trash_scores": {
+    "default": 1
+  },
+  "name": "[VECTOR]",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "VECTOR",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": true,
+      "fields": {
+        "value": "\\bVECTOR\\b"
+      }
+    }
+  ]
+}
