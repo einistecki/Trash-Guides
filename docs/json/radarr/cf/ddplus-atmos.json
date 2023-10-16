@@ -7,7 +7,7 @@
     "sqp-1-2160p": 135
   },
   "name": "DD+ ATMOS",
-  "includeCustomFormatWhenRenaming": false,
+  "includeCustomFormatWhenRenaming": true,
   "specifications": [
     {
       "name": "Dolby Digital Plus",

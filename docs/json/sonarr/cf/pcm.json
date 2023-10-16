@@ -4,7 +4,7 @@
     "default": 2250
   },
   "name": "PCM",
-  "includeCustomFormatWhenRenaming": false,
+  "includeCustomFormatWhenRenaming": true,
   "specifications": [
     {
       "name": "PCM",

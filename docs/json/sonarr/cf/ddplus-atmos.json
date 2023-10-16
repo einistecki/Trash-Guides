@@ -4,7 +4,7 @@
     "default": 3000
   },
   "name": "DD+ ATMOS",
-  "includeCustomFormatWhenRenaming": false,
+  "includeCustomFormatWhenRenaming": true,
   "specifications": [
     {
       "name": "Dolby Digital Plus",

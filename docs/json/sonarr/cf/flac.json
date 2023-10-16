@@ -4,7 +4,7 @@
     "default": 2250
   },
   "name": "FLAC",
-  "includeCustomFormatWhenRenaming": false,
+  "includeCustomFormatWhenRenaming": true,
   "specifications": [
     {
       "name": "FLAC",

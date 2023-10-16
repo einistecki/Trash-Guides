@@ -4,7 +4,7 @@
     "default": 750
   },
   "name": "DD",
-  "includeCustomFormatWhenRenaming": false,
+  "includeCustomFormatWhenRenaming": true,
   "specifications": [
     {
       "name": "Basic Dolby Digital",

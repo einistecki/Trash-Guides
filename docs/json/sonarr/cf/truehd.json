@@ -4,7 +4,7 @@
     "default": 2750
   },
   "name": "TrueHD",
-  "includeCustomFormatWhenRenaming": false,
+  "includeCustomFormatWhenRenaming": true,
   "specifications": [
     {
       "name": "TrueHD",
