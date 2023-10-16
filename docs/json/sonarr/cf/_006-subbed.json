@@ -1,0 +1,56 @@
+{
+  "trash_id": "0000000000000000000000000000b006",
+  "trash_score": -10000,
+  "trash_scores": {
+    "default": -10000
+  },
+  "name": "[Subbed]",
+  "includeCustomFormatWhenRenaming": true,
+  "specifications": [
+    {
+      "name": "Subbed",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "\\b(sub(bed)?)\\b"
+      }
+    },
+    {
+      "name": "German.xxx.Subbed",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(?=.*\\b(Ger(man)?)\\b)(?=.*\\b(Sub(bed)?)\\b)"
+      }
+    },
+    {
+      "name": "GerSub",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(?=.*\\b(Ger(man)?[ .-]?Sub(bed)?\\b))"
+      }
+    },
+    {
+      "name": "English.xxx.Subbed",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(?=.*\\b(Eng(lish)?)\\b)(?=.*\\b(Sub(bed)?)\\b)"
+      }
+    },
+    {
+      "name": "EngSub",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(?=.*\\b(Eng(lish)?[ .-]?Sub(bed)?\\b))"
+      }
+    }
+  ]
+}
