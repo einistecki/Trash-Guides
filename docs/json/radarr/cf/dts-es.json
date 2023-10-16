@@ -7,7 +7,7 @@
     "sqp-1-2160p": 0
   },
   "name": "DTS-ES",
-  "includeCustomFormatWhenRenaming": false,
+  "includeCustomFormatWhenRenaming": true,
   "specifications": [
     {
       "name": "DTS-ES",

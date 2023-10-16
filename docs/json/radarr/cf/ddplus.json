@@ -7,7 +7,7 @@
     "sqp-1-2160p": 125
   },
   "name": "DD+",
-  "includeCustomFormatWhenRenaming": false,
+  "includeCustomFormatWhenRenaming": true,
   "specifications": [
     {
       "name": "Dolby Digital Plus",

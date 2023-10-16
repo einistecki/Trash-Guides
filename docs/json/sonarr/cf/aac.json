@@ -4,7 +4,7 @@
     "default": 1000
   },
   "name": "AAC",
-  "includeCustomFormatWhenRenaming": false,
+  "includeCustomFormatWhenRenaming": true,
   "specifications": [
     {
       "name": "AAC",
