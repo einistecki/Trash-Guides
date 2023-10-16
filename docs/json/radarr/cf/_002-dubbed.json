@@ -1,0 +1,20 @@
+{
+  "trash_id": "0000000000000000000000000000a002",
+  "trash_score": -1,
+  "trash_scores": {
+    "default": -1
+  },
+  "name": "[Dubbed]",
+  "includeCustomFormatWhenRenaming": true,
+  "specifications": [
+    {
+      "name": "Dubbed",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "\\b(dub(bed)?)\\b"
+      }
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "trash_id": "0000000000000000000000000000a003",
+  "trash_score": -10000,
+  "trash_scores": {
+    "default": -10000
+  },
+  "name": "[UnwantedWrestling]",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "AEW-ZeroHour",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "(?=.*\\b(Zero[. ]Hour)\\b)"
+      }
+    },
+    {
+      "name": "AEW-BuyIn",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "(?=.*\\b(Buy[. ]In)\\b)"
+      }
+    },
+    {
+      "name": "WWE-KickOff",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "(?=.*\\b(Kickoff)\\b)"
+      }
+    },
+    {
+      "name": "PressConference",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "(?=.*\\b(Press[. ]Conference)\\b)"
+      }
+    }
+  ]
+}

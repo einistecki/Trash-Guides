@@ -1,0 +1,20 @@
+{
+  "trash_id": "0000000000000000000000000000b003",
+  "trash_score": 1000,
+  "trash_scores": {
+    "default": 1000
+  },
+  "name": "[DE]",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "German Language",
+      "implementation": "LanguageSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": 4
+      }
+    }
+  ]
+}
