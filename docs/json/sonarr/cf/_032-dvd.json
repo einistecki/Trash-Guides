@@ -1,0 +1,20 @@
+{
+  "trash_id": "0000000000000000000000000000b032",
+  "trash_score": 300,
+  "trash_scores": {
+    "default": 300
+  },
+  "name": "[DVD]",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "[DVD]",
+      "implementation": "SourceSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": 5
+      }
+    }
+  ]
+}

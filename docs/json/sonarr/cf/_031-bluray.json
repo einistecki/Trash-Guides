@@ -1,0 +1,20 @@
+{
+  "trash_id": "0000000000000000000000000000b031",
+  "trash_score": 600,
+  "trash_scores": {
+    "default": 600
+  },
+  "name": "[Bluray]",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "[Bluray]",
+      "implementation": "SourceSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": 6
+      }
+    }
+  ]
+}
