@@ -1,0 +1,20 @@
+{
+  "trash_id": "0000000000000000000000000000b024",
+  "trash_score": 700,
+  "trash_scores": {
+    "default": 700
+  },
+  "name": "[540p]",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "[540p]",
+      "implementation": "ResolutionSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": 540
+      }
+    }
+  ]
+}

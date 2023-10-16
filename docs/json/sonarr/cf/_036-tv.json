@@ -1,0 +1,20 @@
+{
+  "trash_id": "0000000000000000000000000000b036",
+  "trash_score": 200,
+  "trash_scores": {
+    "default": 200
+  },
+  "name": "[TV]",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "[TV]",
+      "implementation": "SourceSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": 1
+      }
+    }
+  ]
+}

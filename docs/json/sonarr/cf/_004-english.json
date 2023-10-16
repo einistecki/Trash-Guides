@@ -5,7 +5,7 @@
     "default": -10000
   },
   "name": "[English]",
-  "includeCustomFormatWhenRenaming": false,
+  "includeCustomFormatWhenRenaming": true,
   "specifications": [
     {
       "name": "English Language",

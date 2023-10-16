@@ -1,0 +1,20 @@
+{
+  "trash_id": "0000000000000000000000000000b034",
+  "trash_score": 500,
+  "trash_scores": {
+    "default": 500
+  },
+  "name": "[Web]",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "[Web]",
+      "implementation": "SourceSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": 3
+      }
+    }
+  ]
+}
