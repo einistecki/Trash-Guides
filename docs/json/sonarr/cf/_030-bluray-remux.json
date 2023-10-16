@@ -1,0 +1,20 @@
+{
+  "trash_id": "0000000000000000000000000000b030",
+  "trash_score": 700,
+  "trash_scores": {
+    "default": 700
+  },
+  "name": "[Bluray-Remux]",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "[Bluray-Remux]",
+      "implementation": "SourceSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": 7
+      }
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "trash_id": "0000000000000000000000000000b033",
+  "trash_score": 400,
+  "trash_scores": {
+    "default": 400
+  },
+  "name": "[Web-Rip]",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "[Web-Rip]",
+      "implementation": "SourceSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": 4
+      }
+    }
+  ]
+}
