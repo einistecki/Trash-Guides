@@ -1,8 +1,8 @@
 {
   "trash_id": "0000000000000000000000000000a013",
-  "trash_score": 1,
+  "trash_score": 8,
   "trash_scores": {
-    "default": 1
+    "default": 8
   },
   "name": "[VECTOR]",
   "includeCustomFormatWhenRenaming": false,
@@ -13,7 +13,7 @@
       "negate": false,
       "required": true,
       "fields": {
-        "value": "\\bVECTOR\\b"
+        "value": "^(VECTOR)$"
       }
     }
   ]
