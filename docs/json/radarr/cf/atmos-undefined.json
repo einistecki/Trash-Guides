@@ -7,7 +7,7 @@
     "sqp-1-2160p": 0
   },
   "name": "ATMOS (undefined)",
-  "includeCustomFormatWhenRenaming": false,
+  "includeCustomFormatWhenRenaming": true,
   "specifications": [
     {
       "name": "ATMOS",

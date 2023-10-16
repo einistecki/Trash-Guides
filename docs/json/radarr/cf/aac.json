@@ -7,7 +7,7 @@
     "sqp-1-2160p": 0
   },
   "name": "AAC",
-  "includeCustomFormatWhenRenaming": false,
+  "includeCustomFormatWhenRenaming": true,
   "specifications": [
     {
       "name": "AAC",

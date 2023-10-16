@@ -4,7 +4,7 @@
     "default": 3000
   },
   "name": "ATMOS (undefined)",
-  "includeCustomFormatWhenRenaming": false,
+  "includeCustomFormatWhenRenaming": true,
   "specifications": [
     {
       "name": "ATMOS",

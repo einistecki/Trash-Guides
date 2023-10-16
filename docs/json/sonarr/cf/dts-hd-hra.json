@@ -5,7 +5,7 @@
   },
   "trash_regex": "https://regex101.com/r/jdUH4x/2",
   "name": "DTS-HD HRA",
-  "includeCustomFormatWhenRenaming": false,
+  "includeCustomFormatWhenRenaming": true,
   "specifications": [
     {
       "name": "DTS-HD HRA",

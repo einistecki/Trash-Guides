@@ -7,7 +7,7 @@
     "sqp-1-2160p": -10000
   },
   "name": "TrueHD",
-  "includeCustomFormatWhenRenaming": false,
+  "includeCustomFormatWhenRenaming": true,
   "specifications": [
     {
       "name": "TrueHD",

@@ -5,7 +5,7 @@
   },
   "trash_regex": "https://regex101.com/r/VWCW8c/1",
   "name": "DTS X",
-  "includeCustomFormatWhenRenaming": false,
+  "includeCustomFormatWhenRenaming": true,
   "specifications": [
     {
       "name": "DTS X",
