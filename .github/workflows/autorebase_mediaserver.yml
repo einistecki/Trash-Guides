@@ -1,0 +1,28 @@
+name: autorebase_mediaserver
+
+on:
+  push:
+  schedule:
+    - cron: "0 1 * * 1" # every Monday at 1:00
+
+permissions:
+  contents: write
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: fetch, rebase and push
+        run: |
+          git config --global user.name 'einistecki'
+          git config --global user.email 'einistecki@github.com'
+          git remote add upstream https://github.com/TRaSH-Guides/Guides.git
+          echo "[INFO]: fetching upstream"
+          git fetch --unshallow upstream master
+          echo "[INFO]: checkout mediaserver"
+          git checkout mediaserver
+          echo "[INFO]: rebase mediaserver"
+          git rebase upstream/master
+          echo "[INFO]: push mediaserver"
+          git push --force
