@@ -1,0 +1,29 @@
+{
+  "trash_id": "0000000000000000000000000000b008",
+  "trash_score": 0,
+  "trash_scores": {
+    "default": 0
+  },
+  "name": "[English.Subbed]",
+  "includeCustomFormatWhenRenaming": true,
+  "specifications": [
+    {
+      "name": "English.xxx.Subbed",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(?=.*\\b(Eng(lish)?)\\b)(?=.*\\b(Sub(bed)?)\\b)"
+      }
+    },
+    {
+      "name": "EngSub",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(?=.*\\b(Eng(lish)?[ .-]?Sub(bed)?\\b))"
+      }
+    }
+  ]
+}
