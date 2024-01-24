@@ -1,0 +1,38 @@
+{
+  "trash_id": "0000000000000000000000000000b040",
+  "trash_score": -10000,
+  "trash_scores": {
+    "default": -10000
+  },
+  "name": "[Micro-HD]",
+  "includeCustomFormatWhenRenaming": true,
+  "specifications": [
+    {
+      "name": "HDLight",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "\\b(HD[ .-]?Light)\\b"
+      }
+    },
+    {
+      "name": "1080p Light",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "\\b(1080p[ .-]?Light)\\b"
+      }
+    },
+    {
+      "name": "mHD",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "\\b((mini|micro|m)[ .-]?HD)\\b"
+      }
+    }
+  ]
+}
