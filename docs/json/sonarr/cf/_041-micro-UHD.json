@@ -1,0 +1,38 @@
+{
+  "trash_id": "0000000000000000000000000000b041",
+  "trash_score": -10000,
+  "trash_scores": {
+    "default": -10000
+  },
+  "name": "[Micro-UHD]",
+  "includeCustomFormatWhenRenaming": true,
+  "specifications": [
+    {
+      "name": "UHDLight",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "\\b(UHD[ .-]?Light)\\b"
+      }
+    },
+    {
+      "name": "4KLight",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "\\b(4K[ ._-]?Light)\\b"
+      }
+    },
+    {
+      "name": "2160p Light",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "\\b(2160p[ ._-]?Light)\\b"
+      }
+    }
+  ]
+}
