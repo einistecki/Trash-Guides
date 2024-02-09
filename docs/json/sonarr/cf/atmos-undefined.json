@@ -30,7 +30,7 @@
       "negate": true,
       "required": true,
       "fields": {
-        "value": "\\bDD[^a-z+]|(?<!e-)\\b(ac-?3)\\b"
+        "value": "\\bDD[^a-z+]|(?<!e-)\\b(ac-?3(d)?)\\b"
       }
     },
     {
@@ -39,7 +39,7 @@
       "negate": true,
       "required": true,
       "fields": {
-        "value": "\\bDD[P+]|\\b(e[-_. ]?ac-?3)\\b"
+        "value": "\\bDD[P+]|\\b(e[-_. ]?ac-?3(d)?)\\b"
       }
     },
     {
@@ -48,7 +48,7 @@
       "negate": true,
       "required": true,
       "fields": {
-        "value": "\\bDTS(\\b|\\d)"
+        "value": "\\bDTS(d)?(\\b|\\d)"
       }
     },
     {

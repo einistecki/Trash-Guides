@@ -15,6 +15,24 @@
       "fields": {
         "value": "\\b(dub(bed)?)\\b"
       }
+    },
+    {
+      "name": "AC3D",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "\\b((e)?ac3d)\\b"
+      }
+    },
+    {
+      "name": "DTSD",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "\\b(DTSD)\\b"
+      }
     }
   ]
 }
