@@ -1,19 +1,18 @@
 {
-  "trash_id": "0000000000000000000000000000b013",
-  "trash_score": 8,
+  "trash_id": "0000000000000000000000000000a103",
   "trash_scores": {
-    "default": 8
+      "default": 1000
   },
-  "name": "[VECTOR]",
+  "name": "German Tier 03",
   "includeCustomFormatWhenRenaming": false,
   "specifications": [
     {
-      "name": "VECTOR",
+      "name": "RobertDeNiro",
       "implementation": "ReleaseGroupSpecification",
       "negate": false,
-      "required": true,
+      "required": false,
       "fields": {
-        "value": "^(VECTOR)$"
+        "value": "^(RobertDeNiro)$"
       }
     }
   ]
