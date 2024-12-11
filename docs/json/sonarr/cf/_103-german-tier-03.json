@@ -1,19 +1,18 @@
 {
-  "trash_id": "0000000000000000000000000000a014",
-  "trash_score": 7,
+  "trash_id": "0000000000000000000000000000b103",
   "trash_scores": {
-    "default": 7
+      "default": 1000
   },
-  "name": "[STARS]",
+  "name": "German Tier 03",
   "includeCustomFormatWhenRenaming": false,
   "specifications": [
     {
-      "name": "STARS",
+      "name": "RobertDeNiro",
       "implementation": "ReleaseGroupSpecification",
       "negate": false,
-      "required": true,
+      "required": false,
       "fields": {
-        "value": "^(STARS)$"
+        "value": "^(RobertDeNiro)$"
       }
     }
   ]
